@@ -17,7 +17,7 @@ jobs:
       - name: Run GoReleaser
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PACKAGE_NAME: github.com/cokemine/nodestatus-client-go
+          PACKAGE_NAME: github.com/midori01/nodestatus-client
         run: |-
           docker run \
               --rm \
