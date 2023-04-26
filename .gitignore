@@ -1,5 +1,5 @@
 .idea
 .vscode
-nodestatus-client-go.iml
+nodestatus-client.iml
 build
 dist/
