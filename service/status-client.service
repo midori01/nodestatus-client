@@ -1,6 +1,6 @@
 [Unit]
 Description=NodeStatus-Client
-Documentation=https://github.com/cokemine/nodestatus-client-go
+Documentation=https://github.com/midori01/nodestatus-client
 After=network.target
 
 [Service]
