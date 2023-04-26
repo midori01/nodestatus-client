@@ -1,4 +1,4 @@
-module github.com/cokemine/nodestatus-client-go
+module github.com/midori01/nodestatus-client
 
 go 1.16
 
