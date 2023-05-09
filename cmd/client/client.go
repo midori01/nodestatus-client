@@ -156,7 +156,7 @@ func parseUrl(host string) {
 		log.Println("Please check the host or dsn you input")
 		os.Exit(1)
 	}
-	SERVER = fmt.Sprintf("%s://%s", strings.Replace(u.Scheme, "http", "ws", 1), u.Host)
+	SERVER = fmt.Sprintf("%s://%s%s", strings.Replace(u.Scheme, "http", "ws", 1), u.Host, u.Path)
 	if u.User.Username() != "" {
 		USER = u.User.Username()
 	}
